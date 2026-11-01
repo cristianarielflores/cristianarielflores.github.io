@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cristian Flores | IT, Datos y Analítica</title>
+<meta name="description" content="Ingeniero en Redes y Telecomunicaciones, Máster en Visual Analytics and Big Data. Administrador IT con +8 años de experiencia en transición hacia Data &amp; Analytics.">
+<style>
+  :root {
+    --bg: #f6f8fb;
+    --card: #ffffff;
+    --text: #1d2733;
+    --muted: #5b6b7c;
+    --accent: #1f5c9a;
+    --accent-soft: #e4eef9;
+    --line: #dbe3ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1722;
+      --card: #172233;
+      --text: #e8eef5;
+      --muted: #9fb0c2;
+      --accent: #6fb1ee;
+      --accent-soft: #1d3250;
+      --line: #263449;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+
+  header.hero {
+    background: linear-gradient(135deg, #1f5c9a, #17406d);
+    color: #fff;
+    padding: 56px 0 48px;
+  }
+  .hero .row { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%;
+    background: rgba(255,255,255,.15);
+    border: 2px solid rgba(255,255,255,.5);
+    display: grid; place-items: center;
+    font-size: 34px; font-weight: 700; letter-spacing: 1px;
+    flex: none;
+  }
+  .hero h1 { margin: 0 0 4px; font-size: clamp(1.6rem, 4vw, 2.3rem); line-height: 1.2; }
+  .hero .role { margin: 0; opacity: .92; font-size: 1.05rem; }
+  .hero .links { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 9px 16px; border-radius: 8px;
+    background: #fff; color: #17406d; font-weight: 600; font-size: .95rem;
+  }
+  .btn.ghost { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.6); }
+  .btn:hover { text-decoration: none; opacity: .9; }
+
+  nav {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--card); border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; gap: 18px; overflow-x: auto; padding-top: 12px; padding-bottom: 12px; }
+  nav a { color: var(--muted); font-weight: 600; font-size: .92rem; white-space: nowrap; }
+  nav a:hover { color: var(--accent); text-decoration: none; }
+
+  section { padding: 36px 0 8px; }
+  h2 {
+    font-size: 1.35rem; margin: 0 0 16px; padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent-soft);
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 14px;
+  }
+  .card h3 { margin: 0; font-size: 1.05rem; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 2px 0 8px; }
+  .card ul { margin: 6px 0 0; padding-left: 20px; }
+  .card li { margin: 3px 0; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    background: var(--accent-soft); color: var(--accent);
+    padding: 5px 12px; border-radius: 999px; font-size: .88rem; font-weight: 600;
+  }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .stat { text-align: center; }
+  .stat b { display: block; font-size: 1.8rem; color: var(--accent); }
+  footer { padding: 36px 0 48px; color: var(--muted); font-size: .88rem; text-align: center; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="row">
+      <div class="avatar" aria-hidden="true">CF</div>
+      <div>
+        <h1>Ing. MSc. Cristian Ariel Flores Sandoval</h1>
+        <p class="role">Ingeniero en Redes y Telecomunicaciones · Máster en Visual Analytics and Big Data</p>
+        <p class="role">Santa Cruz de la Sierra, Bolivia</p>
+        <div class="links">
+          <a class="btn" href="mailto:itnet.flores@gmail.com">Contactar</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/cristian-ariel-floressandoval-2a00a2137/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#educacion">Educación</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <div class="card">
+      <p>Administrador de IT con más de 8 años de experiencia en la administración de servidores y gestión de equipos a través de Azure Intune, complementado con formación en Big Data y Data Analytics. Manejo SQL, Power BI, Python y herramientas de procesamiento de datos.</p>
+      <p>Combino mi experiencia técnica en infraestructura con habilidades analíticas para transformar datos operativos en información útil, optimizar flujos de trabajo y apoyar iniciativas de inteligencia de negocio. En busca de un rol donde aplicar y ampliar mis capacidades en Data &amp; Analytics.</p>
+    </div>
+    <div class="grid">
+      <div class="card stat"><b>+8 años</b>en administración IT</div>
+      <div class="card stat"><b>Máster</b>en Visual Analytics y Big Data</div>
+      <div class="card stat"><b>SQL · Power BI · Python</b>análisis y visualización</div>
+    </div>
+  </section>
+
+  <section id="experiencia">
+    <h2>Experiencia laboral</h2>
+
+    <div class="card">
+      <h3>Administrador IT</h3>
+      <div class="meta">Inforfactory Servicios Informáticos Srl. · mar. 2016 – Presente</div>
+      <ul>
+        <li>Administración de infraestructura interna: servidores Microsoft (DNS, dominio interno) y servidores Linux.</li>
+        <li>Servidor de monitoreo Zabbix: reportes de incidencias, alertas y control de carga de los equipos de la empresa.</li>
+        <li>Administración de servidores y gestión de equipos con Azure Intune.</li>
+        <li>Implementación y administración de servicios en AWS: Elastic Beanstalk, S3, RDS, EC2 e IAM.</li>
+        <li>Administración de cámaras de videovigilancia y HelpDesk en general.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Administrador TI</h3>
+      <div class="meta">Fricción SRL. · dic. 2014 – feb. 2016</div>
+      <ul>
+        <li>Active Directory: organización de perfiles de usuarios según cargos administrativos.</li>
+        <li>Servidor de correo ZIMBRA (código abierto) con más de 50 cuentas.</li>
+        <li>Mensajería instantánea interna y sistema biométrico de control de acceso, con reportes mensuales a RR. HH.</li>
+        <li>Sistema de cámaras de seguridad: control y mantenimiento preventivo.</li>
+        <li>Firewall pfSense como portal cautivo, políticas ACL y proxy; virtualización con VMware ESXi.</li>
+        <li>HelpDesk, mantenimiento preventivo de equipos, cotización y compra de equipamiento informático.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Técnico de Instalaciones</h3>
+      <div class="meta">Ectel SRL. · ene. 2014 – nov. 2014</div>
+      <ul>
+        <li>Instalación de Internet de banda ancha (cable módem) y CATV para COTAS.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Auxiliar de laboratorios de cómputo, Sistemas, Redes y Telecomunicaciones</h3>
+      <div class="meta">Universidad Tecnológica Privada de Santa Cruz · feb. 2013 – dic. 2013</div>
+      <ul>
+        <li>Soporte técnico de software y hardware, instalación de sistemas operativos Windows.</li>
+        <li>Supervisión de servidores locales (Active Directory, DNS).</li>
+        <li>Cableado estructurado, configuración de switches y routers administrables.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos académicos</h2>
+
+    <div class="card">
+      <h3>Trabajo Fin de Máster: Dashboard financiero en Power BI</h3>
+      <div class="meta">Empresa “Nueva Toledo” · Máster en Visual Analytics and Big Data</div>
+      <ul>
+        <li>Diseño y desarrollo de un dashboard interactivo para el análisis de ingresos, egresos y movimientos de caja.</li>
+        <li>Recolección, consolidación y estructuración de datos contables de diferentes fuentes.</li>
+        <li>Limpieza, transformación y modelado de datos para garantizar consistencia y trazabilidad.</li>
+        <li>Visualizaciones dinámicas orientadas a decisiones gerenciales y control financiero.</li>
+        <li>Publicación y configuración del informe en Power BI Service para usuarios internos.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Análisis de datos bibliográficos con Scopus</h3>
+      <div class="meta">Prácticas académicas · Politécnico Grancolombiano · 2023</div>
+      <ul>
+        <li>Búsqueda, identificación y refinamiento de palabras clave para mejorar la recuperación de información científica.</li>
+        <li>Exploración del dataset y análisis de términos relevantes.</li>
+        <li>Criterios semánticos y técnicas básicas de minería de texto para seleccionar tópicos de investigación.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="educacion">
+    <h2>Educación y formación</h2>
+
+    <div class="card">
+      <h3>Diplomado Internacional Data Science</h3>
+      <div class="meta">GEM-EDUCA Perú · 2026</div>
+      <p>Análisis de datos, estadística aplicada, machine learning y visualización con Python, SQL y Power BI.</p>
+    </div>
+    <div class="card">
+      <h3>Fundamentos de gestión de servicios IT</h3>
+      <div class="meta">OpenWebinars · 2025</div>
+      <p>Buenas prácticas ITIL: gestión de incidentes, optimización de procesos y calidad del soporte.</p>
+    </div>
+    <div class="card">
+      <h3>Máster Universitario en Análisis y Visualización de Datos Masivos (Visual Analytics and Big Data)</h3>
+      <div class="meta">Universidad Internacional de la Rioja (UNIR) · 2022 – 2023</div>
+      <p>Manejo eficiente de grandes conjuntos de datos, análisis avanzado y técnicas de visualización.</p>
+    </div>
+    <div class="card">
+      <h3>Auditoría de Sistemas (curso)</h3>
+      <div class="meta">UAGRM School of Engineering · 2018</div>
+    </div>
+    <div class="card">
+      <h3>Administración de SQL Server (curso)</h3>
+      <div class="meta">Cognos Capacitación · 2016</div>
+      <p>SQL Server Management Studio 2014: mantenimiento, restauración y monitoreo de bases de datos.</p>
+    </div>
+    <div class="card">
+      <h3>Administración de SO Linux (curso)</h3>
+      <div class="meta">Itconsulting · 2015</div>
+      <p>Infraestructura sobre Linux (CentOS, Debian, Ubuntu).</p>
+    </div>
+    <div class="card">
+      <h3>Ingeniería de Redes y Telecomunicaciones (Licenciatura)</h3>
+      <div class="meta">Universidad Tecnológica Privada de Santa Cruz · 2014</div>
+      <p>Alumno sobresaliente, con media beca en los primeros semestres.</p>
+    </div>
+    <div class="card">
+      <h3>Técnico Medio en Reparación e Instalación de Computadoras y Redes de Comunicaciones</h3>
+      <div class="meta">Instituto Domingo Savio · 2009</div>
+    </div>
+    <div class="card">
+      <h3>Bachiller en Humanidades</h3>
+      <div class="meta">Unidad Educativa Walter Henry · 2008</div>
+      <p>Graduado con calificación sobresaliente y primer lugar de la promoción.</p>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="card">
+      <h3>Técnicas</h3>
+      <div class="chips" style="margin-top:10px">
+        <span class="chip">Servidores Windows/Linux</span>
+        <span class="chip">Redes y seguridad (firewall, VPN, VLAN)</span>
+        <span class="chip">AWS</span>
+        <span class="chip">Azure / Intune</span>
+        <span class="chip">Active Directory / Azure AD / IAM</span>
+        <span class="chip">SQL Server · MySQL · PostgreSQL</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Python</span>
+        <span class="chip">Zabbix</span>
+        <span class="chip">Virtualización (VMware ESXi)</span>
+        <span class="chip">Copias de seguridad y recuperación</span>
+        <span class="chip">Soporte e incidencias IT</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Habilidades blandas</h3>
+      <div class="chips" style="margin-top:10px">
+        <span class="chip">Resolución de problemas</span>
+        <span class="chip">Pensamiento analítico</span>
+        <span class="chip">Comunicación efectiva</span>
+        <span class="chip">Trabajo en equipo</span>
+        <span class="chip">Adaptabilidad</span>
+        <span class="chip">Gestión del tiempo</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>¿Tienes una oportunidad en Data &amp; Analytics o infraestructura IT? Escríbeme.</p>
+      <p>
+        <a href="mailto:itnet.flores@gmail.com">itnet.flores@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/cristian-ariel-floressandoval-2a00a2137/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© <span id="y"></span> Cristian Ariel Flores Sandoval</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
